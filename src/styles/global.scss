@@ -13,9 +13,9 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #1c1c1c;
+  --primary-color: #381696;
   --primary-text-color: #fff;
-  --featured-bg: #1c1c1c;
+  --featured-bg: #493b8a;
   --featured-text: #fff;
   --secondary-color: #10072b;
   --background: #fff;
@@ -33,11 +33,11 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #1c1c1c;
+  --primary-color: #9984d5;
   --primary-text-color: #fff;
-  --featured-bg: #1c1c1c;
+  --featured-bg: #66578d;
   --featured-text: #fff;
-  --secondary-color: #1c1c1c;
+  --secondary-color: #66578d;
   --background: #0A041A;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
