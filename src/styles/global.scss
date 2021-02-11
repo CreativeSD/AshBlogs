@@ -13,9 +13,9 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #353535;
   --primary-text-color: #fff;
-  --featured-bg: #493b8a;
+  --featured-bg: #272727;
   --featured-text: #fff;
   --secondary-color: #10072b;
   --background: #fff;
@@ -33,11 +33,11 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #9984d5;
+  --primary-color: #353535;
   --primary-text-color: #fff;
-  --featured-bg: #66578d;
+  --featured-bg: #272727;
   --featured-text: #fff;
-  --secondary-color: #66578d;
+  --secondary-color: #616161;
   --background: #0A041A;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
@@ -57,7 +57,7 @@ body.dark {
 /* System Fonts as used by Medium and WordPress */
 body {
   font-family: $font-family;
-  border-top: 10px solid var(--primary-color);
+  // border-top: 10px solid var(--primary-color);
   background-color: var(--background);
   color: var(--text-color);
 }
